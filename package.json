@@ -1,0 +1,18 @@
+{
+  "name": "space-bounty-hunters",
+  "version": "1.0.0",
+  "description": "Space Bounty Hunters REST API: Express + PostgreSQL, run with Docker Compose",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.13.1"
+  }
+}

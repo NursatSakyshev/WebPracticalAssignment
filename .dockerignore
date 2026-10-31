@@ -1,0 +1,15 @@
+node_modules
+npm-debug.log*
+.git
+.gitignore
+.dockerignore
+Dockerfile
+compose.yaml
+README.md
+postman
+db
+.env
+.env.*
+.DS_Store
+.vscode
+.idea
